@@ -421,5 +421,13 @@ public class SesionInfanteDE implements Serializable {
         }
     }
     
-    
+     public void elimInfante()
+    {
+        try {
+            listaInfantes.eliminarInfante(infanteSeleccionado);
+            irPrimero();
+        } catch (InfanteExcepcion ex) {
+             JsfUtil.addErrorMessage(ex.getMessage());
+        }
+    }
 }
