@@ -97,7 +97,7 @@ public class LoginBean implements Serializable {
 
         } 
             //no encontro el susario
-            JsfUtil.addErrorMessage("los datos son malos ");
+            JsfUtil.addErrorMessage("los datos ingresados no corresponden,intente de nuevo ");
 
         
 

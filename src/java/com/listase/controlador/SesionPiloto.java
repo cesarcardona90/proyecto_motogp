@@ -53,9 +53,7 @@ public class SesionPiloto implements Serializable {
     
     private Piloto pilotoDiagrama;
     
-    /**
-     * Creates a new instance of SesionInfante
-     */
+    
     public SesionPiloto() {        
     }
     
@@ -63,7 +61,7 @@ public class SesionPiloto implements Serializable {
     private void inicializar()
     {
         controlLocalidades = new ControladorLocalidades();
-        //inicializando el combo en el primer depto
+      
         codigoDeptoSel = controlLocalidades.getDepartamentos().get(0).getCodigo();
         
         listaPilotos = new ListaPiloto();        
