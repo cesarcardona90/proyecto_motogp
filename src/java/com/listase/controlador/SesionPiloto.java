@@ -68,14 +68,14 @@ public class SesionPiloto implements Serializable {
         
         listaPilotos = new ListaPiloto();        
         //LLenado de la bds
-        listaPilotos.adicionarNodo(new Piloto("Juan Jose ",(short) 1, (byte)2, true,
+        listaPilotos.adicionarNodo(new Piloto("Cesar ",(short) 1, (byte)26, true,
                 controlLocalidades.getCiudades().get(0).getNombre()));
         
-        listaPilotos.adicionarNodo(new Piloto("Maria Camila",(short) 2, (byte)3, false,
+        listaPilotos.adicionarNodo(new Piloto("Angela",(short) 2, (byte)21, false,
         controlLocalidades.getCiudades().get(3).getNombre()));
-        listaPilotos.adicionarNodo(new Piloto("Carmen",(short) 3, (byte)1,false,
+        listaPilotos.adicionarNodo(new Piloto("Sebastian",(short) 3, (byte)24,true,
         controlLocalidades.getCiudades().get(1).getNombre()));
-        listaPilotos.adicionarNodoAlInicio(new Piloto("Lupe",(short) 4, (byte)5,false,
+        listaPilotos.adicionarNodoAlInicio(new Piloto("Eduard",(short) 4, (byte)27,true,
         controlLocalidades.getCiudades().get(2).getNombre()));
         ayudante = listaPilotos.getCabeza();
         piloto = ayudante.getDato();     
